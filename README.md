@@ -1,12 +1,16 @@
-EXP 1 : ANALYSIS OF DFT WITH AUDIO SIGNAL
-AIM:
-To analyze audio signal by removing unwanted frequency.
 
-APPARATUS REQUIRED:
-PC installed with SCILAB/Python.
+# EXP 1 :  ANALYSIS OF DFT WITH AUDIO SIGNAL
 
-PROGRAM:
+# AIM: 
 
+  To analyze audio signal by removing unwanted frequency. 
+
+# APPARATUS REQUIRED: 
+   
+   PC installed with SCILAB/Python. 
+
+# PROGRAM: 
+```
 # ==============================
 # AUDIO DFT ANALYSIS IN COLAB
 # ==============================
@@ -79,7 +83,43 @@ plt.colorbar(format="%+2.0f dB")
 plt.title("Spectrogram (dB)")
 plt.ylim(0, sr/2)
 plt.show()
-OUTPUT:
-image image image
-RESULTS
+```
+
+# OUTPUT: 
+
+Top 10 Dominant Frequencies:
+
+69.98 Hz (Magnitude = 6.79e+00)
+
+282.62 Hz (Magnitude = 5.87e+00)
+
+258.40 Hz (Magnitude = 5.65e+00)
+
+67.29 Hz (Magnitude = 5.61e+00)
+
+301.46 Hz (Magnitude = 5.03e+00)
+
+261.09 Hz (Magnitude = 4.82e+00)
+
+279.93 Hz (Magnitude = 4.69e+00)
+
+298.77 Hz (Magnitude = 4.41e+00)
+
+253.02 Hz (Magnitude = 4.36e+00)
+
+304.16 Hz (Magnitude = 4.30e+00)
+
+
+<img width="1058" height="414" alt="image" src="https://github.com/user-attachments/assets/4a7b8861-b84b-4ca6-8a8e-1a8f60e47597" />
+
+
+<img width="1055" height="412" alt="image" src="https://github.com/user-attachments/assets/fa2905ce-6a1b-4ea8-8d5c-68870d587244" />
+
+
+<img width="1032" height="521" alt="image" src="https://github.com/user-attachments/assets/9a2e1dbb-9e1a-4c54-b377-aeb4b3841082" />
+
+
+
+# RESULTS
+
 Thus,the analysis of DFT with audio signal is verified
